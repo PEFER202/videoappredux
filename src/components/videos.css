@@ -1,0 +1,77 @@
+/* Tạo style cho ảnh header */
+img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Tạo style cho ô tìm kiếm */
+.form-control {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  box-shadow: 0px 3px 8px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
+
+/* Giao diện card của video */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Style cho footer và danh sách comments */
+.card-footer {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  border-radius: 0 0 8px 8px;
+}
+
+.card-footer h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.card-footer ul {
+  padding-left: 20px;
+  color: #555;
+}
+
+.card-footer ul li {
+  margin-bottom: 8px;
+}
+
+/* Responsive video */
+iframe {
+  border-radius: 8px;
+}
